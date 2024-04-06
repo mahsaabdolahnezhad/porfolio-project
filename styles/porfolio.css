@@ -47,9 +47,35 @@ p{
   line-height: 1.5;
   color:#272142;
 }
+.logo{
+  max-height: 40px;
+}
+nav{
+  padding: 20px 0;
+}
+nav ul{
+  margin: 0;
+  padding: 0;
+
+}
+nav li{
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+nav a{
+  text-decoration: none;
+  margin-left: 15px;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,nav li.active a{
+  color: var(--branding-color);
+}
 
 
- .content-container h1{
+.content-container h1{
   font-size:64px;
   line-height: 1;
 }
@@ -122,5 +148,9 @@ font-family: var(--default-font-family);
   }
   .profile{
     padding:50px;
+  }
+  nav a{
+    font-size: 14px;
+    margin-left: 10px;
   }
 }
