@@ -24,6 +24,9 @@ h2{
   font-size:64px;
   color:black;
 }
+h4{
+  font-size: 48px;
+}
 p{
   font-weight:normal;
   font-size:16px;
@@ -123,6 +126,39 @@ font-family: var(--default-font-family);
 .project-description{
   padding:120px 60px;
 }
+footer{
+  margin: 60px 0;
+}
+footer .contact-box{
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+footer .contact-box p{
+  margin: 0;
+}
+footer .email-link{
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  
+}
+footer .email-link:hover{
+  color: var(--branding-color);
+}
+footer .social-links a{
+  color: var(--branding-color);
+  margin: 0 20px;
+  background: var(--secondary-color);
+  font-size: 18px;
+  padding: 10px 14px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover{
+  color: white;
+  background: var(--branding-color);
+}
 
 @media (max-width: 960px){
   .project-description{
@@ -136,6 +172,7 @@ font-family: var(--default-font-family);
   h2{
     font-size: 44px;
   }
+
   .hero{
     padding:80px 20px;
   }
@@ -152,5 +189,8 @@ font-family: var(--default-font-family);
   nav a{
     font-size: 14px;
     margin-left: 10px;
+  }
+  .email-link{
+    font-size: 10px;
   }
 }
